@@ -1,0 +1,38 @@
+.navbar {
+    background-color: blueviolet !important;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.redondeate {
+    border-radius: 50%;
+}
+
+.botoncin {
+    font-family: sans-serif;
+    color: white !important;
+}
+
+.boton-principal {
+    background-color: blueviolet !important;
+    font-family: sans-serif !important;
+    width: auto !important;
+    display:block !important;
+    margin-right:500px !important;
+    margin-left: 500px!important;
+    height: 50px;
+    width: 10px;
+    padding: 0px !important
+}
+
+.contenedor-botones {
+    justify-content: center;
+}
+
+.pie {
+    text-align-last: center;
+}
+
+.p-1{
+    text-align: -webkit-center;
+}

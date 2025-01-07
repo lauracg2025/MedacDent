@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilosModificarCita.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <title>Modificar Cita MedacDent</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">MEDACDENT</a>
+              <img src="/imagenes/logo2.jpg" alt="" width="80" height="80" class="redondeate">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="#">Agenda</a>
+                 <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Personal</a>
+                <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="#">Horarios</a>   
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Pedidos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Almacén</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Compras</a>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success botoncin" type="submit" >Buscar</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+
+        <br>
+
+        <button type="submit" class="btn btn-primary btn-sn boton-volver" onclick="goToGestorCitas()"> Volver </button>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <table id="tabla-citas" class="table table-striped table-hover table-bordered border-info caption-top">
+                        <caption>Listado de citas</caption>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellidos</th>
+                                <th>Fecha de Nacimiento</th>
+                                <th>DNI</th>
+                                <th>Teléfono</th>
+                                <th>Fecha de la cita</th>
+                                <th>MODIFICAR</th>
+                                <th>ELIMINAR</th>
+                                <th></th>
+                            </tr>     
+                        </thead>
+                        <tbody>
+                            
+                        </tbody>
+                     </table>
+                </div>
+            </div>
+        </div>    
+                  
+        <section class="">
+            <footer class="bg-body-tertiary text-center text-md-start">
+              <div class="p-1">
+                <div class="row">
+                  <div class="col-4 mb-4 mb-md-0">
+                    <h6 class="text-uppercase">Te esperamos en:</h6>
+        
+                    <p class="street"> Avda. Palacio Valdés, 2 Bajo <br>
+                        (Nº Reg.Sanitario C-123/456)<br>
+                      33002 Oviedo Asturias<br>
+                     985 000 000 <img src="imagenes/telefono.jpg" alt="" width="25" height="25">
+                    </p>
+    
+                  </div>
+    
+                  <div class="col-4 mb-4 mb-md-0">
+                    <h6 class="text-uppercase">ESPECIALISTAS EN LOS MÁS PEQUEÑOS</h6>
+    
+                    <p class="especialistas"> PREMIO DIENTE DE LECHE 2024 <br>
+                        PREMIO RATONCITO PEREZ 2023<br>
+                        GALARDÓN MIS PRIMEROS BRACKETS 2022
+                    <br>
+                       
+                    </p>
+                  </div>
+    
+                  <div class="col-4 mb-4 mb-md-0">
+            
+                       <img src="imagenes/premiodiente.jpg" alt="" width="90" height="90" class="redondeate">
+                       <img src="imagenes/premioratoncito.jpg" alt="" width="90" height="90" class="redondeate">
+                       <img src="imagenes/misprimeros.jpg" alt="" width="90" height="90" class="redondeate">
+                    </p>
+                  </div>
+                </div>
+              </div>
+    
+             <div class="container-fluid pie">
+                <p>
+                    <a href="aviso.html" class="text-black">Aviso Legal</a> | 
+                    <a href="politica.html" class="text-black">Política de Privacidad</a> | 
+                    <a href="contacto.html" class="text-black">Contacta con nosotros</a> | 
+                    <a href="politicadecookies.html" class="text-black">Política de cookies</a> | 
+                </p>
+              </div>
+    
+              <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2025 Copyright:
+                <a class="text-body">www.medacdent.com</a>
+                Todos los derechos reservados
+              </div>
+            </footer>  
+          </section>
+
+        <script src="modificarCita.js"></script>
+
+    </body>
+</html>
